@@ -3,7 +3,7 @@
 <head>
  <!-- Datos que describen el documento -->
  <meta charset="UTF-8" />
- <title>Sobre mi</title>
+ <title>Escritorio Virtual: Sobre mi</title>
 
  <meta name ="author" content ="Daniel Flores Lopez" />
 
@@ -35,10 +35,10 @@
    </nav>
  </header>
  
-
+ <!--Utilizo section porque toda la info. tiene sentido con el encabezado, pero está anclado a esta entrada-->
  <section>
    <h2> Informacion sobre mi</h2>
-   <p> Mi nombre es Daniel Flores Lopez, con UO282894 en la Universidad de Oviedo.
+   <p> Mi nombre es Daniel Flores Lopez, con UO282894 en la <a href="https://www.uniovi.es/">Universidad de Oviedo</a>.
       Mi correo electrónico es el siguiente: UO282894@uniovi.es. Nací un 1 de junio de 2002 en Gijón, y desde
       entonces este es el sitio en el que vivo. </p>
       <picture>
@@ -99,7 +99,8 @@
    </dl>
  </section>
  
- <section>
+ <!--Este contenido lo considero un article porque es info. que podría aparecer en otro lado sin necesidad de especificar un nuevo contexto, es información que se autocompleta.-->
+ <article>
    <h2>Tabla de temperaturas medias anuales de Asturias (aeropuerto de Asturias) </h2>
    <table>
       <tbody>
@@ -161,8 +162,8 @@
             <td headers="2013 temperaturaMedia"> 13.8</td>
          </tr>
    </table>
-   <p> Esta información fue proporcionada por el servicio <a href="https://www.aemet.es/es/datos_abiertos/AEMET_OpenData">AEMET</a> OpenData de AEMET</p>
- </section>
+   <p> Esta información fue proporcionada por el servicio <a href="https://www.aemet.es/es/datos_abiertos/AEMET_OpenData">AEMET OpenData</a> de AEMET</p>
+ </article>
  
 </body>
 </html>
