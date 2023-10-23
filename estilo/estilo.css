@@ -148,15 +148,18 @@ video{
 @media screen and (max-width: 700px){
     /*Especificidad 002*/
     header h1{
+        /*Bajamos la font-size a la mitad del original para dispositivos con poco píxeles*/
         font-size: 1.5em;
     }
     /*Especificidad 002*/
     header a {
+        /*Bajamos la font-size a la mitad del original para dispositivos con poco píxeles*/
         font-size: 0.5em;
     }
 
     /*Especificidad 012, 012*/
     header a:first-child, header a:last-child{
+        /*Bajamos la font-size a la mitad del original para dispositivos con poco píxeles*/
         font-size: 1em;
     }
 }
