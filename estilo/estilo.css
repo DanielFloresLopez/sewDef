@@ -1,3 +1,165 @@
 /*Daniel Flores Lopez, UO282894*/
 
+/*
+Colores:
+Background: #2C1211
+#EED6D3 - Dusty Rose
+#69C9BC - Blue Green
+#F7BCA5 - Scallop Seasheep
+#F7837C - Coral
+*/
+
+/*Especificidad 001*/
+body{
+    font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+    background-color: #2C1211;
+    color: #EED6D3;
+}
+
+/*Especifidad 001*/
+header{
+    /*Color hereda de body*/
+    background-color: #69C9BC;
+}
+
+/*Especificidad 002*/
+header h1{
+    /*Background-color hereda de header*/
+    color: #2C1211;
+    font-size: 3em;
+}
+
+
+/*Especificidad 001*/
+h2{
+    font-size: 2rem;
+    /*Background-color hereda de body*/
+    color: #69C9BC;
+}
+
+/*Especificidad 001, 001*/
+h1, h2 {
+    /*Font-family hereda de body*/
+    font-weight: bolder;
+}
+
+/*Especificidad 001*/
+h3 {
+    /*Font-family hereda de body*/
+    /*Background-color hereda de body*/
+    font-weight: bold;
+    color: #F7837C;
+}
+
+/*Especificidad 001, 001, 001*/
+h4, h5, h6{
+    font-family: 'Tahoma', 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    /*Background-color hereda de body*/
+    color: #F7BCA5;
+}
+
+/*Especificidad 001*/
+a{
+    /*Background-color hereda de body*/
+    color: #fff;
+    font-weight: bold;
+}
+/*Especificidad 011*/
+a:hover{
+    /*Background-color hereda de body*/
+    color: #F7837C;
+}
+/*Especificidad 002, 012*/
+header a, header a:visited{
+    /*Background-color hereda de header*/
+    color: #2C1211;
+}
+/*Especificidad 012, 012*/
+header a:first-child, header a:last-child{
+    font-size: 2em;
+}
+/*Especificidad 012*/
+header a:hover{
+    /*Background-color hereda de header*/
+    color: #000;
+}
+
+/*Especificidad 002*/
+ol li {
+    /*Background-color hereda de body*/
+    color: #69C9BC;
+    font-size: 1.2rem;
+}
+
+/*Especificidad 002*/
+ul li{
+    /*Background-color hereda de body*/
+    color:#F7BCA5;
+    font-weight: bold;
+}
+
+/*Especificidad 003*/
+ol ul li{
+    /*Background-color hereda de body*/
+    color: #fff;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+/*Especificidad 012*/
+ul li:nth-child(3){
+    /*Background-color hereda de body*/
+    color: #fff;
+}
+/*Especifidad 002*/
+dl dt{
+    /*Background-color hereda de body*/
+    color: #F7BCA5;
+}
+/*Especifidad 002*/
+dl dd{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/*Especificidad 001, 001*/
+td, th{
+    text-align: center;
+}
+/*Especificidad 011, 011*/
+th[scope="col"], th[headers="year"]{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/*Especificidad 001,001*/
+img, video{
+    align-content: center;
+}
+/*Especificidad 001*/
+img{
+    max-height: 20%;
+    width: auto;
+}
+/*Especificidad 001*/
+video{
+    width: 25%;
+    height: auto;
+}
+
+@media screen and (max-width: 700px){
+    /*Especificidad 002*/
+    header h1{
+        font-size: 1.5em;
+    }
+    /*Especificidad 002*/
+    header a {
+        font-size: 0.5em;
+    }
+
+    /*Especificidad 012, 012*/
+    header a:first-child, header a:last-child{
+        font-size: 1em;
+    }
+}
+
+
    
