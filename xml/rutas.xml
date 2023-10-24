@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta fechainicio="1-1-2023" horainicio="18:00" tiemporuta="2 horas">
+        <nombreruta> Ruta 1</nombreruta>
+        <tiporuta transporte="a pie"></tiporuta>
+        <agencia>sin agencia</agencia>
+        <descripcion>Ruta de prueba que más adelante 
+            será completada con una ruta realista</descripcion>
+        <recomendacionpersonas> Perfecta para todas las edades</recomendacionpersonas>
+        <lugarinicio direccion="calle Por Defecto 3" longitud="1" latitud="2" altitud="2">sitio Por Defecto</lugarinicio>
+        <referencias>
+            <referencia>
+
+            </referencia>
+            
+        </referencias>
+        <recomendacion>8</recomendacion>
+        <hitos>
+            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
+                <nombrehito> Hito 1</nombrehito>
+                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+                <fotografias>
+                    <fotografia>fotografia1.jpg</fotografia>
+                    <fotografia>fotografia2.jpg</fotografia>
+                    <fotografia>fotografia3.jpg</fotografia>
+                </fotografias>
+                <videos></videos>
+            </hito>
+            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
+                <nombrehito> Hito 2</nombrehito>
+                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+                <fotografias>
+                    <fotografia>fotografia1.jpg</fotografia>
+                    <fotografia>fotografia2.jpg</fotografia>
+                    <fotografia>fotografia3.jpg</fotografia>
+                </fotografias>
+                <videos></videos>
+            </hito>
+            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
+                <nombrehito> Hito 3</nombrehito>
+                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+                <fotografias>
+                    <fotografia>fotografia1.jpg</fotografia>
+                    <fotografia>fotografia2.jpg</fotografia>
+                    <fotografia>fotografia3.jpg</fotografia>
+                </fotografias>
+                <videos></videos>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta fechainicio="1-1-2023" horainicio="18:00" tiemporuta="2 horas">
+        <nombreruta> Ruta 1</nombreruta>
+        <tiporuta transporte="a pie"></tiporuta>
+        <agencia>sin agencia</agencia>
+        <descripcion>Ruta de prueba que más adelante 
+            será completada con una ruta realista</descripcion>
+        <recomendacionpersonas> Perfecta para todas las edades</recomendacionpersonas>
+        <lugarinicio direccion="calle Por Defecto 3" longitud="1" latitud="2" altitud="2">sitio Por Defecto</lugarinicio>
+        <referencias>
+            <referencia>
+
+            </referencia>
+            
+        </referencias>
+        <recomendacion>8</recomendacion>
+        <hitos>
+            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
+                <nombrehito> Hito 1</nombrehito>
+                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+                <fotografias>
+                    <fotografia>fotografia1.jpg</fotografia>
+                    <fotografia>fotografia2.jpg</fotografia>
+                    <fotografia>fotografia3.jpg</fotografia>
+                </fotografias>
+                <videos></videos>
+            </hito>
+            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
+                <nombrehito> Hito 2</nombrehito>
+                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+                <fotografias>
+                    <fotografia>fotografia1.jpg</fotografia>
+                    <fotografia>fotografia2.jpg</fotografia>
+                    <fotografia>fotografia3.jpg</fotografia>
+                </fotografias>
+                <videos></videos>
+            </hito>
+            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
+                <nombrehito> Hito 3</nombrehito>
+                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+                <fotografias>
+                    <fotografia>fotografia1.jpg</fotografia>
+                    <fotografia>fotografia2.jpg</fotografia>
+                    <fotografia>fotografia3.jpg</fotografia>
+                </fotografias>
+                <videos></videos>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta fechainicio="1-1-2023" horainicio="18:00" tiemporuta="2 horas">
+        <nombreruta> Ruta 1</nombreruta>
+        <tiporuta transporte="a pie"></tiporuta>
+        <agencia>sin agencia</agencia>
+        <descripcion>Ruta de prueba que más adelante 
+            será completada con una ruta realista</descripcion>
+        <recomendacionpersonas> Perfecta para todas las edades</recomendacionpersonas>
+        <lugarinicio direccion="calle Por Defecto 3" longitud="1" latitud="2" altitud="2">sitio Por Defecto</lugarinicio>
+        <referencias>
+            <referencia>
+
+            </referencia>
+            
+        </referencias>
+        <recomendacion>8</recomendacion>
+        <hitos>
+            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
+                <nombrehito> Hito 1</nombrehito>
+                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+                <fotografias>
+                    <fotografia>fotografia1.jpg</fotografia>
+                    <fotografia>fotografia2.jpg</fotografia>
+                    <fotografia>fotografia3.jpg</fotografia>
+                </fotografias>
+                <videos></videos>
+            </hito>
+            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
+                <nombrehito> Hito 2</nombrehito>
+                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+                <fotografias>
+                    <fotografia>fotografia1.jpg</fotografia>
+                    <fotografia>fotografia2.jpg</fotografia>
+                    <fotografia>fotografia3.jpg</fotografia>
+                </fotografias>
+                <videos></videos>
+            </hito>
+            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
+                <nombrehito> Hito 3</nombrehito>
+                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+                <fotografias>
+                    <fotografia>fotografia1.jpg</fotografia>
+                    <fotografia>fotografia2.jpg</fotografia>
+                    <fotografia>fotografia3.jpg</fotografia>
+                </fotografias>
+                <videos></videos>
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>
