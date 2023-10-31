@@ -1,62 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE rutas SYSTEM "rutas.dtd">
 <rutas>
-    <ruta fechainicio="1-1-2023" horainicio="18:00" tiemporuta="2 horas">
-        <nombreruta> Ruta 1</nombreruta>
-        <tiporuta transporte="a pie"></tiporuta>
-        <agencia>sin agencia</agencia>
-        <descripcion>Ruta de prueba que más adelante 
-            será completada con una ruta realista</descripcion>
+    <ruta fechainicio="2-12-2023" horainicio="10:00" tiemporuta="2 horas 42 minutos">
+        <nombreruta> Hargeisa Route</nombreruta>
+        <tiporuta transporte="a pie"> Tour de la ciudad </tiporuta>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Ruta de un paseo por Hargeisa, una de las ciudades más importantes de Somalia.
+        </descripcion>
         <recomendacionpersonas> Perfecta para todas las edades</recomendacionpersonas>
-        <lugarinicio direccion="calle Por Defecto 3" longitud="1" latitud="2" altitud="2">sitio Por Defecto</lugarinicio>
+        <lugarinicio direccion="H3Q7+FR3, Hargeisa, Somalia" longitud="9.588680851619683" latitud="44.064539980140495" altitud="1260">Hargeisa City Stadium</lugarinicio>
         <referencias>
             <referencia>
-
+                https://es.wikipedia.org/wiki/Hargeisa
             </referencia>
-            
+            <referencia>
+                https://es.wikipedia.org/wiki/Somalilandia
+            </referencia>
+            <referencia>
+                https://moys.govsomaliland.org/article/stadium
+            </referencia>
         </referencias>
-        <recomendacion>8</recomendacion>
+        <recomendacion>6,5</recomendacion>
         <hitos>
-            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
-                <nombrehito> Hito 1</nombrehito>
-                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+            <hito longitud="9.58259714321547" latitud="44.099562162081114" altitud="1281" distanciahito="6,6 km">
+                <nombrehito> Nassa Hablood Park</nombrehito>
+                <descripcionhito> Parque reconocido como lugar histórico de la ciudad de Hargeisa</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
-                    <fotografia>fotografia2.jpg</fotografia>
-                    <fotografia>fotografia3.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
-            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
-                <nombrehito> Hito 2</nombrehito>
-                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+            <hito longitud="9.56081850772289" latitud="44.08721752883517" altitud="1267" distanciahito="5,0 km">
+                <nombrehito> Maamus Hotel Hargeisa</nombrehito>
+                <descripcionhito> Hotel con las mejores valoraciones de la ciudad</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
-                    <fotografia>fotografia2.jpg</fotografia>
-                    <fotografia>fotografia3.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
-            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
-                <nombrehito> Hito 3</nombrehito>
-                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+            <hito longitud="9.561464573397487" latitud="44.08097796379248" altitud="1261" distanciahito="0,85 km">
+                <nombrehito> BEERTA LIBAAXA RESTUARANTE CAFE</nombrehito>
+                <descripcionhito> Restaurante considerado una gran atracción turística de la ciudad de Hargeisa</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
-                    <fotografia>fotografia2.jpg</fotografia>
-                    <fotografia>fotografia3.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
         </hitos>
     </ruta>
-    <ruta fechainicio="1-1-2023" horainicio="18:00" tiemporuta="2 horas">
-        <nombreruta> Ruta 1</nombreruta>
-        <tiporuta transporte="a pie"></tiporuta>
-        <agencia>sin agencia</agencia>
-        <descripcion>Ruta de prueba que más adelante 
-            será completada con una ruta realista</descripcion>
+    <ruta fechainicio="15-12-2023" horainicio="18:00" tiemporuta="1 horas 14 minutos">
+        <nombreruta> Visita a los monumentos de Mogadiscio</nombreruta>
+        <tiporuta transporte="a pie"> Tour de la ciudad</tiporuta>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Ruta por la capital de Somalia que visita aquellos monumentos alejados de la costa, pero con un gran interés para el país.</descripcion>
         <recomendacionpersonas> Perfecta para todas las edades</recomendacionpersonas>
-        <lugarinicio direccion="calle Por Defecto 3" longitud="1" latitud="2" altitud="2">sitio Por Defecto</lugarinicio>
+        <lugarinicio direccion="Estadio Mogadiscio" longitud="2.067611485529539" latitud="45.33521678837033" altitud="74">Muqdisho Stadium</lugarinicio>
         <referencias>
             <referencia>
 
@@ -65,81 +63,67 @@
         </referencias>
         <recomendacion>8</recomendacion>
         <hitos>
-            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
-                <nombrehito> Hito 1</nombrehito>
-                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+            <hito longitud="2.062272809495288" latitud="45.320945692464896" altitud="71" distanciahito="1,8 km">
+                <nombrehito> University of Somalia</nombrehito>
+                <descripcionhito> Universidad única de Mogadiscio, junto a la Somali international university.</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
-                    <fotografia>fotografia2.jpg</fotografia>
-                    <fotografia>fotografia3.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
-            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
-                <nombrehito> Hito 2</nombrehito>
-                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+            <hito longitud="2.061432072275904" latitud="45.32017380047232" altitud="73" distanciahito="0,13 km">
+                <nombrehito> Somali international university</nombrehito>
+                <descripcionhito> Es una de las universidades más importantes de toda Somalia</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
-                    <fotografia>fotografia2.jpg</fotografia>
-                    <fotografia>fotografia3.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
-            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
-                <nombrehito> Hito 3</nombrehito>
-                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+            <hito longitud="2.054386485118926" latitud="45.29555203248958" altitud="91" distanciahito="3,3 km">
+                <nombrehito> Cinema baariyow</nombrehito>
+                <descripcionhito> Cine más famoso de la ciudad de Mogadiscio</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
-                    <fotografia>fotografia2.jpg</fotografia>
-                    <fotografia>fotografia3.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
         </hitos>
     </ruta>
-    <ruta fechainicio="1-1-2023" horainicio="18:00" tiemporuta="2 horas">
-        <nombreruta> Ruta 1</nombreruta>
-        <tiporuta transporte="a pie"></tiporuta>
-        <agencia>sin agencia</agencia>
-        <descripcion>Ruta de prueba que más adelante 
-            será completada con una ruta realista</descripcion>
+    <ruta fechainicio="20-12-2023" horainicio="10:00" tiemporuta="2 horas">
+        <nombreruta> Visita por la costa de Mogadiscio</nombreruta>
+        <tiporuta transporte="a pie"> Ruta por la ciudad</tiporuta>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Ruta por las playas de Mogadiscio, las más turísticas de toda Somalia.</descripcion>
         <recomendacionpersonas> Perfecta para todas las edades</recomendacionpersonas>
-        <lugarinicio direccion="calle Por Defecto 3" longitud="1" latitud="2" altitud="2">sitio Por Defecto</lugarinicio>
+        <lugarinicio direccion="273V+9C, Mogadishu, Somalia" longitud="2.0029472721305885" latitud="45.29336070090095" altitud="3">AAIA beach</lugarinicio>
         <referencias>
             <referencia>
 
             </referencia>
-            
         </referencias>
-        <recomendacion>8</recomendacion>
+        <recomendacion>9</recomendacion>
         <hitos>
-            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
+            <hito longitud="2.017988503081041" latitud="45.303862120448635" altitud="16" distanciahito="2,6 km">
                 <nombrehito> Hito 1</nombrehito>
-                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+                <descripcionhito> Aeropuerto Internacional Aden Adde</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
-                    <fotografia>fotografia2.jpg</fotografia>
-                    <fotografia>fotografia3.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
-            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
-                <nombrehito> Hito 2</nombrehito>
-                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+            <hito longitud="2.033703008940806" latitud="45.34382395155846" altitud="1" distanciahito="5,6 km">
+                <nombrehito> Lighthouse of Mogadiscio</nombrehito>
+                <descripcionhito> Faro de Mogadiscio que sigue operativo y tiene una visita entre las 6 de la mañana y las 6 de la tarde.</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
-                    <fotografia>fotografia2.jpg</fotografia>
-                    <fotografia>fotografia3.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
-            <hito longitud="1" latitud="2" altitud="3" distanciahito="100 km">
-                <nombrehito> Hito 3</nombrehito>
-                <descripcionhito> Descripcion por defecto del hito</descripcionhito>
+            <hito longitud="2.039120298996535" latitud="45.34191447930742" altitud="15" distanciahito="0,75 km">
+                <nombrehito> The Tomb of the Unknown Soldier</nombrehito>
+                <descripcionhito> Daljirka Dahsoon es un monumento a la Tumba del Soldado Desconocido ubicado en Mogadiscio. El monumento fue erigido en honor a los hombres y mujeres somalíes que murieron en defensa de la República de Somalia.</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
-                    <fotografia>fotografia2.jpg</fotografia>
-                    <fotografia>fotografia3.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
