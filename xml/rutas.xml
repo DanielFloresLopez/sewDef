@@ -89,11 +89,11 @@
             </hito>
         </hitos>
     </ruta>
-    <ruta fechainicio="20-12-2023" horainicio="10:00" tiemporuta="2 horas">
+    <ruta fechainicio="20-12-2023" horainicio="10:00" tiemporuta="2 horas 2 minutos">
         <nombreruta> Visita por la costa de Mogadiscio</nombreruta>
         <tiporuta transporte="a pie"> Ruta por la ciudad</tiporuta>
         <agencia>Sin agencia</agencia>
-        <descripcion>Ruta por las playas de Mogadiscio, las más turísticas de toda Somalia.</descripcion>
+        <descripcion>Ruta por las playas de Mogadiscio, las más turísticas de toda Somalia, además de ver algunos de los monumentos más importantes, como su faro, uno de los más antiguos en funcionamiento.</descripcion>
         <recomendacionpersonas> Perfecta para todas las edades</recomendacionpersonas>
         <lugarinicio direccion="273V+9C, Mogadishu, Somalia" longitud="2.0029472721305885" latitud="45.29336070090095" altitud="3">AAIA beach</lugarinicio>
         <referencias>
