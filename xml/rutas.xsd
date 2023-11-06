@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="Windows-1252"?>
-<xs:schema xmlns="http://tempuri.org/rutas" elementFormDefault="qualified" targetNamespace="http://tempuri.org/rutas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns="http://www.uniovi.es/rutas"  targetNamespace="http://www.uniovi.es/rutas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:element name="rutas">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="1" maxOccurs="unbounded" ref="ruta" />
+				<xs:element minOccurs="3" maxOccurs="unbounded" ref="ruta" />
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -59,7 +59,7 @@
 					<xs:attribute name="direccion" type="xs:string" use="required" />
 					<xs:attribute name="longitud" use="required" >
 						<xs:simpleType>
-							<xs:restriction base="xs:decimal">
+							<xs:restriction base="xs:float">
 								<xs:minInclusive value="-180.0"/>
 								<xs:maxInclusive value="180.0"/>
 							</xs:restriction>
@@ -67,13 +67,13 @@
 					</xs:attribute>
 					<xs:attribute name="latitud" use="required" >
 						<xs:simpleType>
-							<xs:restriction base="xs:decimal">
+							<xs:restriction base="xs:float">
 								<xs:minInclusive value="-90.0"/>
 								<xs:maxInclusive value="90.0"/>
 							</xs:restriction>
 						</xs:simpleType>
 					</xs:attribute>
-					<xs:attribute name="altitud" type="xs:decimal" use="required"/>
+					<xs:attribute name="altitud" type="xs:float" use="required"/>
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
@@ -95,10 +95,25 @@
 				<xs:element ref="fotografias" />
 				<xs:element ref="videos" />
 			</xs:sequence>
-			<xs:attribute name="longitud" type="xs:NMTOKEN" use="required" />
-			<xs:attribute name="latitud" type="xs:NMTOKEN" use="required" />
-			<xs:attribute name="altitud" type="xs:NMTOKEN" use="required" />
-			<xs:attribute name="distanciahito" type="xs:string" use="required" />
+			<xs:attribute name="longitud" use="required" >
+						<xs:simpleType>
+							<xs:restriction base="xs:float">
+								<xs:minInclusive value="-180.0"/>
+								<xs:maxInclusive value="180.0"/>
+							</xs:restriction>
+						</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="latitud" use="required" >
+						<xs:simpleType>
+							<xs:restriction base="xs:float">
+								<xs:minInclusive value="-90.0"/>
+								<xs:maxInclusive value="90.0"/>
+							</xs:restriction>
+						</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="altitud" type="xs:float" use="required" />
+			<xs:attribute name="distanciahito" type="xs:float" use="required" />
+			<xs:attribute name="tipodistancia" type="xs:string" use="required" />
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="nombrehito" type="xs:string" />
