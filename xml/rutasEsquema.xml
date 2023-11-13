@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rutas xsi:schemaLocation="http://www.uniovi.es/rutas rutas.xsd" xmlns="http://www.uniovi.es/rutas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<rutas xsi:schemaLocation="http://www.uniovi.es/rutas rutas.xsd" xmlns="http://www.uniovi.es/rutas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:null="http://www.uniovi.es/rutas">
     <ruta fechainicio="2023-12-02" horainicio="10:00:00" tiemporuta="PT2H42M">
         <nombreruta> Hargeisa Route</nombreruta>
         <tiporuta transporte="a pie"> Tour de la ciudad </tiporuta>
@@ -21,24 +21,21 @@
         </referencias>
         <recomendacion>6</recomendacion>
         <hitos>
-            <hito longitud="9.58259714321547" latitud="44.099562162081114" altitud="1281" distanciahito="6.6" tipodistancia="km">
-                <nombrehito> Nassa Hablood Park</nombrehito>
+            <hito longitud="9.58259714321547" latitud="44.099562162081114" altitud="1281" distanciahito="7" tipodistancia="km" nombrehito="Nassa Hablood Park">
                 <descripcionhito> Parque reconocido como lugar histórico de la ciudad de Hargeisa</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
-            <hito longitud="9.56081850772289" latitud="44.08721752883517" altitud="1267" distanciahito="5" tipodistancia="km">
-                <nombrehito> Maamus Hotel Hargeisa</nombrehito>
+            <hito longitud="9.56081850772289" latitud="44.08721752883517" altitud="1267" distanciahito="5" tipodistancia="km" nombrehito="Maamus Hotel Hargeisa">
                 <descripcionhito> Hotel con las mejores valoraciones de la ciudad</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
-            <hito longitud="9.561464573397487" latitud="44.08097796379248" altitud="1261" distanciahito="0.85" tipodistancia="km">
-                <nombrehito> BEERTA LIBAAXA RESTUARANTE CAFE</nombrehito>
+            <hito longitud="9.561464573397487" latitud="44.08097796379248" altitud="1261" distanciahito="1" tipodistancia="km" nombrehito="BEERTA LIBAAXA RESTUARANTE CAFE">
                 <descripcionhito> Restaurante considerado una gran atracción turística de la ciudad de Hargeisa</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
@@ -67,24 +64,21 @@
         </referencias>
         <recomendacion>8</recomendacion>
         <hitos>
-            <hito longitud="2.062272809495288" latitud="45.320945692464896" altitud="71" distanciahito="1.8" tipodistancia="km">
-                <nombrehito> University of Somalia</nombrehito>
+            <hito longitud="2.062272809495288" latitud="45.320945692464896" altitud="71" distanciahito="2" tipodistancia="km" nombrehito="University of Somalia">
                 <descripcionhito> Universidad única de Mogadiscio, junto a la Somali international university.</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
-            <hito longitud="2.061432072275904" latitud="45.32017380047232" altitud="73" distanciahito="0.13" tipodistancia="km">
-                <nombrehito> Somali international university</nombrehito>
+            <hito longitud="2.061432072275904" latitud="45.32017380047232" altitud="73" distanciahito="1" tipodistancia="km" nombrehito="Somali international university">
                 <descripcionhito> Es una de las universidades más importantes de toda Somalia</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
-            <hito longitud="2.054386485118926" latitud="45.29555203248958" altitud="91" distanciahito="3.3" tipodistancia="km">
-                <nombrehito> Cinema baariyow</nombrehito>
+            <hito longitud="2.054386485118926" latitud="45.29555203248958" altitud="91" distanciahito="3" tipodistancia="km" nombrehito="Cinema baariyow">
                 <descripcionhito> Cine más famoso de la ciudad de Mogadiscio</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
@@ -113,24 +107,21 @@
         </referencias>
         <recomendacion>9</recomendacion>
         <hitos>
-            <hito longitud="2.017988503081041" latitud="45.303862120448635" altitud="16" distanciahito="2.6" tipodistancia="km">
-                <nombrehito> Hito 1</nombrehito>
+            <hito longitud="2.017988503081041" latitud="45.303862120448635" altitud="16" distanciahito="3" tipodistancia="km" nombrehito="Aden Adde">
                 <descripcionhito> Aeropuerto Internacional Aden Adde</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
-            <hito longitud="2.033703008940806" latitud="45.34382395155846" altitud="1" distanciahito="5.6" tipodistancia="km">
-                <nombrehito> Lighthouse of Mogadiscio</nombrehito>
+            <hito longitud="2.033703008940806" latitud="45.34382395155846" altitud="1" distanciahito="5" tipodistancia="km" nombrehito="Lighthouse of Mogadiscio">
                 <descripcionhito> Faro de Mogadiscio que sigue operativo y tiene una visita entre las 6 de la mañana y las 6 de la tarde.</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>
                 </fotografias>
                 <videos></videos>
             </hito>
-            <hito longitud="2.039120298996535" latitud="45.34191447930742" altitud="15" distanciahito="0.75" tipodistancia="km">
-                <nombrehito> The Tomb of the Unknown Soldier</nombrehito>
+            <hito longitud="2.039120298996535" latitud="45.34191447930742" altitud="15" distanciahito="1" tipodistancia="km" nombrehito="The Tomb of the Unknown Soldier">
                 <descripcionhito> Daljirka Dahsoon es un monumento a la Tumba del Soldado Desconocido ubicado en Mogadiscio. El monumento fue erigido en honor a los hombres y mujeres somalíes que murieron en defensa de la República de Somalia.</descripcionhito>
                 <fotografias>
                     <fotografia>fotografia1.jpg</fotografia>

@@ -90,7 +90,6 @@
 	<xs:element name="hito">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="nombrehito" />
 				<xs:element ref="descripcionhito" />
 				<xs:element ref="fotografias" />
 				<xs:element ref="videos" />
@@ -114,9 +113,9 @@
 			<xs:attribute name="altitud" type="xs:float" use="required" />
 			<xs:attribute name="distanciahito" type="xs:float" use="required" />
 			<xs:attribute name="tipodistancia" type="xs:string" use="required" />
+			<xs:attribute name="nombrehito" type="xs:string" />
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="nombrehito" type="xs:string" />
 	<xs:element name="descripcionhito" type="xs:string" />
 	<xs:element name="fotografias">
 		<xs:complexType>
