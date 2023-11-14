@@ -36,7 +36,19 @@
         <a tabindex="7" accesskey="J" href="juegos.html">Juegos</a>
      </nav>
    </header>
-   <h2> Meteorología local</h2>
+   <h2> Meteorología</h2>
+   <script>
+      //Version 1.1 23/10/2021
+     document.write("<h1>!Hola a todos!</h1>")
+   </script>
+   <script src="js/pais.js">
+      var somalia = new Pais("Somalia","Mogadiscio", 17065581,"República parlamentaria");
+      somalia.fillAttributes(2.0371100,45.3437500, "Islam");
+      document.write("<p>Pais :"+somalia.getNombre()+"</p>");
+      document.write("<p>Capital :"+somalia.getCapital()+"</p>");
+      document.write(somalia.getSecondaryInfoAsAList());
+      somalia.writeCapital();
+   </script>
    <p>En desarrollo</p>
 </body>
 </html>
