@@ -1,4 +1,4 @@
-"use strict";
+
 class Pais{
     constructor(nombre, capital, poblacion, formaGobierno){
         this.nombre = nombre;
@@ -28,4 +28,6 @@ class Pais{
     writeCapital(){
         document.write("<p> Coordenadas de "+this.capital+": latitud{" +this.latitudCap+"}, longitud{"+this.longitudCap+"}</p>");
     }
+
 }
+
