@@ -25,6 +25,7 @@ section:last-of-type article {
     transform-style: preserve-3d;
     transition: transform .5s;
     box-shadow: 1em 1em 1em rgba(0,0,0,.3);
+    position: relative;
 }
 
 
@@ -38,6 +39,7 @@ section:last-of-type article img {
     background-color: #1C7CCC;
     color: black;
     backface-visibility: hidden;
+    margin: 0;
 }
 
 /*Especificidad 013*/
@@ -46,6 +48,7 @@ section:last-of-type article h3 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 }
 
 /*Especificidad 022, 022*/

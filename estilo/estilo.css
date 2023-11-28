@@ -136,7 +136,7 @@ img, video{
 }
 /*Especificidad 001*/
 img{
-    max-height: 20%;
+    /*max-height: 20%;*/
     width: auto;
 }
 /*Especificidad 001*/

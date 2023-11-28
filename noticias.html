@@ -36,8 +36,15 @@
         <a tabindex="7" accesskey="J" href="juegos.html">Juegos</a>
      </nav>
    </header>
-   <h2> Noticias</h2>
-   <p>En desarrollo</p>
+   <script src="js/noticias.js"></script>
+   <script>
+      var noticias = new Noticias();
+   </script>
+   <section>
+      <h2>Noticias</h2>
+      <p><input type="file" id="archivoTexto" onchange="noticias.readInputFile(this.files);"></p>
+      <pre></pre>
+   </section>
 
 </body>
 </html>
