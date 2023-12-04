@@ -17,6 +17,8 @@
 
 <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
 
+<link rel="stylesheet" type="text/css" href="estilo/meteorologia.css" />
+
 <link rel="icon" href="multimedia/imagenes/favicon.ico"/>
 
 </head>
@@ -37,6 +39,11 @@
      </nav>
    </header>
    <h2> Meteorología</h2>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"></script>
    <script src="./js/pais.js"></script>
    <script>
       document.write("<p>Buenos dias</p>");
@@ -47,7 +54,13 @@
       document.write("<p>Capital :"+somalia.getCapital()+"</p>");
       document.write(somalia.getSecondaryInfoAsAList());
       somalia.writeCapital();
+
+      somalia.verJSON();
    </script>
-   <p>En desarrollo</p>
+   <section>
+      <h2> Pronóstico de los próximos 5 días</h2>
+      
+   </section>
+   
 </body>
 </html>

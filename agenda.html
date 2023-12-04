@@ -17,6 +17,8 @@
 
 <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
 
+<link rel="stylesheet" type="text/css" href="estilo/agenda.css" />
+
 <link rel="icon" href="multimedia/imagenes/favicon.ico"/>
 
 </head>
@@ -36,8 +38,17 @@
         <a tabindex="7" accesskey="J" href="juegos.html">Juegos</a>
      </nav>
    </header>
-   <h2> Agenda personal</h2>
-   <p>En desarrollo</p>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="js/agenda.js"></script>
+   <script>
+      var agenda = new Agenda();
+      agenda.cargarDatos();
+   </script>
+   <section>
+      <h2> Calendario de formula 1 de este año</h2>
+      
+      <p> *Los cambios de calendario no se producen instantaneamente</p>
+   </section>
 
 </body>
 </html>

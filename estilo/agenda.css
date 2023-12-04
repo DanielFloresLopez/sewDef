@@ -1,0 +1,65 @@
+/*Daniel Flores Lopez, UO282894*/
+
+/*Especificidad 011 */
+section:last-of-type{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 3;
+}
+
+/*Especificidad 012 */
+section:last-of-type h2 {
+    width: 95%;
+    height: 30%;
+    text-align: center;
+    
+}
+
+/*Especificidad 012 */
+section:last-of-type article {
+    background-color: #69C9BC;
+    color: #2C1211;
+    width: 80%;
+    height: auto;
+    margin: 3%;
+    position: relative;
+    border-radius: 0.5rem;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+/*Especificidad 013 */
+section:last-of-type article h3{
+    background-color: #2C1211;
+    color: #ffffff;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 0,5em;
+}
+
+/*Especificidad 013 */
+section:last-of-type article p{
+    font-weight: bold;
+}
+
+/*Especifidad 013*/
+section:last-of-type article img {
+    width: auto;
+    height: 5em;
+    position: relative;
+    margin-left: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 600px){
+    /*Especificidad 012 */
+    section:last-of-type article {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
