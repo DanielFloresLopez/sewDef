@@ -17,6 +17,8 @@
 
 <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
 
+<link rel="stylesheet" type="text/css" href="estilo/noticias.css" />
+
 <link rel="icon" href="multimedia/imagenes/favicon.ico"/>
 
 </head>
@@ -36,8 +38,35 @@
         <a tabindex="7" accesskey="J" href="juegos.html">Juegos</a>
      </nav>
    </header>
-   <h2> Noticias</h2>
-   <p>En desarrollo</p>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="js/noticias.js"></script>
+   <script>
+      var noticias = new Noticias();
+   </script>
+   <p>Seleccione un archivo de texto: </p>
+   <p><input type="file" onchange="noticias.readInputFile(this.files);"></p>
+   <section>
+      <h2>Noticias</h2>
+   </section>
+   <section>
+      <h3> Añada sus propias noticias</h3>
+      <form name="noticia">
+         <p><label for="titulo">Título: </label>
+            <input id="titulo" type="text" placeholder="Escriba su título" maxlength=100 required/>
+         </p>
+         <p><label for="subtitulo">Subtítulo: </label>
+            <input id="subtitulo" type="text" placeholder="Escriba su subtítulo" maxlength=150 required/>
+         </p>
+         <p><label for="texto">Noticia: </label></p>
+         <input id="texto" type="text" maxlength=1000 required/>
+         
+         
+         <p><label for="autor">Autor: </label>
+            <input id="autor" type="text" placeholder="Nombre del autor" maxlength=50 required/>
+         </p>
+      </form>
+      <p><button onclick="noticias.writeNewNews();">Escribir noticia</button><p></p>
+   </section>
 
 </body>
 </html>

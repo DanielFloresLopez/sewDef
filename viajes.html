@@ -17,6 +17,13 @@
 
  <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
 
+ <link type="text/css" href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css" rel="stylesheet">
+ <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
+
+ <link rel="stylesheet" type="text/css" href="estilo/viajes.css" />
+
+ 
+
  <link rel="icon" href="multimedia/imagenes/favicon.ico"/>
 
 </head>
@@ -36,7 +43,24 @@
         <a tabindex="7" accesskey="J" href="juegos.html">Juegos</a>
      </nav>
    </header>
-   <h2> Viajes realizados</h2>
-   <p>En desarrollo</p>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="js/viajes.js"></script>
+   <script>
+      var viajes = new Viajes();
+   </script>
+   <section>
+      <h2>Mapa estático</h2>
+   </section>
+   <section>
+      <h2>Mapa dinamico</h2>
+   </section>
+   <section>
+      <h3>Rutas de viajes</h3>
+      <p> Suba un archivo xml con el contenido de rutas turísticas: <input type="file" onchange="viajes.readInputFile(this.files);"></p>
+   </section>
+   <section>
+      <h3>Archivos KML</h3>
+      <p> Suba los archivos KML para que sean mostrados: <input type="file" name="archivosKML" onchange="viajes.leerKMLs();" multiple></p>
+   </section>
 </body>
 </html>

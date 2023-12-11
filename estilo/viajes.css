@@ -1,0 +1,59 @@
+/*Daniel Flores Lopez, UO282894*/
+
+/*Especificidad 011*/
+section:first-of-type{
+    text-align: center;
+}
+
+/*Especificidad 012*/
+section:first-of-type img{
+    width: 50%;
+    height: auto;
+}
+
+/*Especificidad 012*/
+section:nth-of-type(3) article{
+    background-color: #69C9BC;
+    color: #2C1211;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+/*Especificidad 012*/
+section:nth-of-type(3) article h3{
+    background-color: #69C9BC;
+    color: #2C1211;
+}
+
+/*Especificidad 013*/
+section:nth-of-type(3) article a{
+    background-color: #2C1211;
+    color: #69C9BC;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin: 0.75em;
+}
+
+/*Especificidad 013*/
+section:nth-of-type(3) article li{
+    background-color: #F7BCA5;
+    color: #2C1211;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+/*Especificidad 011*/
+section:nth-of-type(2){
+    text-align: center;
+    align-content: center;
+    
+}
+
+/*Especificidad 012, 012*/
+section:nth-of-type(2) article, section:nth-of-type(4) article{
+    width: 50%;
+    height: 30em;
+    padding: 1em;
+    margin: 1em;
+}
+

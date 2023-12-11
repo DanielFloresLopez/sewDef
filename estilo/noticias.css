@@ -1,0 +1,84 @@
+/*Daniel Flores Lopez, UO282894*/
+
+/*Especificidad 012 */
+section:first-of-type article {
+    background-color: #F7BCA5;
+    color: #2C1211;
+    width: 80%;
+    height: auto;
+    margin: 3%;
+    position: relative;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+/*Especificidad 013 */
+section:first-of-type article h3{
+    color: #000;
+    background-color: #F7837C;
+    padding: 1em;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 2rem;
+    margin-bottom: 0;
+}
+
+
+/*Especificidad 023 */
+section:first-of-type article p:first-of-type{
+    color: #000;
+    background-color: #F7837C;
+    margin-top: 0;
+
+}
+
+/*Especificidad 013 */
+section:first-of-type article p:last-of-type{
+    color: #000;
+    background-color: #F7837C;
+    padding: 0.5em;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 2rem;
+    text-align: left;
+}
+
+/*Especificidad 001 */
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*Especificidad 002 */
+form p{
+    width: 80%;
+    margin: 2em 0;
+}
+
+/*Especificidad 011 */
+input[type="text"]{
+    width : 80%;
+    border: 0.1em solid #F7837C;
+    border-radius: 0.5em;
+}
+
+/*Especificidad 011*/
+input[id="texto"]{
+    height: 6em;
+} 
+
+/*Especificidad 011*/
+button{
+    background-color: #F7837C;
+    color: #2C1211;
+    font-weight: bold;
+    border: 0;
+    border-radius: 3em;
+    padding: 1em;
+}
+
+/*Especificidad 011*/
+button:hover{
+    background-color: #2C1211;
+    color: #F7837C;
+    border: 0.1em solid #F7837C;
+}
